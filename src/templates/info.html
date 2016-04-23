@@ -1,0 +1,47 @@
+<div class="step1 s hidden">
+  <h4>Step 1</h4>
+  <img src="images/screen.svg"/>
+  <p>Connect the <%- app.model %> to your computer using a USB cable</p>
+  <button class="button-primary animated fadeIn" idx="1" style="width:100%">Next</button>
+</div>
+<div class="step2 hidden s">
+  <h4>Step 2</h4>
+  <img src="images/bulb.svg"/>
+  <p>Connect power to the <%- app.model %> and ensure it is on.</p>
+  <button class="button-primary animated fadeIn" idx="2" style="width:100%">Next</button>
+</div>
+<div class="step3 hidden s">
+  <h4>Step 3</h4>
+  <img src="images/info.svg"/>
+  <p>Place a jumper on the BOOT pins and press the reset button</p>
+  <button class="button-primary animated fadeIn" idx="3" style="width:100%">Next</button>
+</div>
+<div class="progress hidden s">
+  <h4>Flashing</h4>
+  <img src="images/loader.svg" style="margin-top:10px;margin-bottom:20px"/>
+  <!--<div>Please do not disconnect your printer.</div>-->
+  <p>Erasing existing firmware...</p>
+</div>
+<div class="success hidden s">
+  <h4>Success</h4>
+  <img src="images/success.svg"/>
+  <!--<div>Please do not disconnect your printer.</div>-->
+  <% if (app.mtype == "p") { %>
+  <p>Firmware successfully updated. Please remove the jumper and restart your <%- app.model %>.</p>
+  <% } else { %>
+  <p>Firmware successfully updated. Please restart your <%- app.model %>.</p>
+  <% } %>
+</div>
+
+<div class="download s hidden">
+  <h4>Downloading</h4>
+  <img src="images/loader.svg"/>
+  <p>Downloading firmware update. Please wait...</p>
+</div>
+
+<div class="error hidden s">
+  <h4>Error!</h4>
+  <img src="images/error.svg"/>
+  <p>Unable to flash new firmware. Please check your <%- app.model %> connections and then restart this app to try again.</p>
+  <div class="info details"></div>
+</div>

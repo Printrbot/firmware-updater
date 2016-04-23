@@ -1,0 +1,28 @@
+<div class="page select-bot">
+  <img src="images/pb.png" class="logo animated bounceIn"/>
+  <select class="u-full-width animated bounceIn bot" style="margin-bottom:10px">
+    <option value="">Please select your bot</option>
+    <optgroup label="3d Printers">
+      <% _.each(app.fm.get('printers'), function(e) { %>
+        <option value="<%- e.file %>" t="p"><%- e.model %></option>
+      <% }) %>
+    </optgroup>
+    <optgroup label="CNC Machines">
+      <% _.each(app.fm.get('cnc'), function(e) { %>
+        <option value="<%- e.file %>" t="c"><%- e.model %></option>
+      <% }) %>
+    </optgroup>
+  </select>
+  <button class="button-primary animated fadeIn" style="width:100%">Next</button>
+  <div class="info">(or drop a file on this window)</div>
+</div>
+
+<div class="drop-ok-message di hidden">
+  <img src="images/drop.svg"/>
+    <p>drop it</p>
+</div>
+
+<div class="drop-err-message di hidden">
+  <img src="images/error.svg"/>
+  <p>invalid file type!</p>
+</div>
