@@ -1,0 +1,23 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #6d6d6d;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+}
+
+
+#container {
+  min-height: 595px;
+  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+}
+
+.btn {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0;
+	text-transform: uppercase;
+	font-size: 11px;
+	border-radius: 2px;
+}
