@@ -3,7 +3,7 @@
     {
       "model": "Printrbot Simple",
       "file": "simple-0.2.hex",
-      "version": 0.2
+      "version": 0.1
     },
     {
       "model": "Printrbot Plus",
@@ -13,6 +13,16 @@
     {
       "model": "Printrbot Play",
       "file": "play-0.1.hex",
+      "version": 0.1
+    },
+    {
+      "model": "Bocusini",
+      "file": "bocusini-0.1.hex",
+      "version": 0.1
+    },
+    {
+      "model": "Magic Candy Factory",
+      "file": "mcf-0.1.hex",
       "version": 0.1
     }
   ],
