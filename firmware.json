@@ -29,8 +29,8 @@
   "cnc": [
     {
       "model": "Crawlbot 1.0",
-      "file": "crawlbot-0.1.bin",
-      "version": 0.1
+      "file": "crawlbot-1.0.bin",
+      "version": 1.0
     },
     {
       "model": "Crawlbot 1.1",
