@@ -165,11 +165,11 @@ function(
       }
       var detected = null;
       for (var i=0; i<result.length; i++) {
-        if (result[i].manufacturer == "Synthetos" && !detected)
+        if ((result[i].manufacturer == "Synthetos" || result[i].manufacturer == "Printrbot") && !detected)
           detected = result[i];
       }
       // in case that previous flashing failed and board was left in
-      // flashing mode, it will not report as Synthetos manufacturer
+      // flashing mode, it will not report as Synthetos or Printrbot manufacturer
       if (!detected) {
         _skipBootInit = true;
         for (var i=0; i<result.length; i++) {
