@@ -3,17 +3,17 @@
     {
       "model": "Printrbot Simple",
       "file": "simple-0.3.hex",
-      "version": 0.3
+      "version": 0.4
     },
     {
       "model": "Printrbot Plus",
       "file": "plus-0.2.hex",
-      "version": 0.2
+      "version": 0.3
     },
     {
       "model": "Printrbot Play",
       "file": "play-0.3.hex",
-      "version": 0.3
+      "version": 0.4
     },
     {
       "model": "Bocusini",
