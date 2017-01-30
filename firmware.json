@@ -2,18 +2,18 @@
   "printers": [
     {
       "model": "Printrbot Simple",
-      "file": "simple-0.4.hex",
-      "version": 0.4
+      "file": "simple-0.5.hex",
+      "version": 0.5
     },
     {
       "model": "Printrbot Plus",
-      "file": "plus-0.3.hex",
-      "version": 0.3
+      "file": "plus-0.4.hex",
+      "version": 0.4
     },
     {
       "model": "Printrbot Play",
-      "file": "play-0.4.hex",
-      "version": 0.4
+      "file": "play-0.5.hex",
+      "version": 0.5
     },
     {
       "model": "Bocusini",
