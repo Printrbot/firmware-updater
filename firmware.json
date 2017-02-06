@@ -2,13 +2,13 @@
   "printers": [
     {
       "model": "Printrbot Simple",
-      "file": "simple-0.5.hex",
-      "version": 0.5
+      "file": "simple-0.6.hex",
+      "version": 0.6
     },
     {
       "model": "Printrbot Plus",
-      "file": "plus-0.4.hex",
-      "version": 0.4
+      "file": "plus-0.5.hex",
+      "version": 0.5
     },
     {
       "model": "Printrbot Play",
